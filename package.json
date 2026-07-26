@@ -1,0 +1,36 @@
+{ "name": "rosetta-stone-i18n-pmb",
+  "version": "0.0.0",
+  "description": "An internationalization (translation, i18n) library inspired by `rosetta`, but with multi-language fallback support (e.g. en_CA || en_US || en || global).",
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "rosetta",
+    "translation"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/rosetta-stone-i18n-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/rosetta-stone-i18n-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/rosetta-stone-i18n-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "MIT",
+
+  "main": "stone.js",
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb",
+    "env": { "browser": true }
+  },
+
+  "dependencies": {},
+  "devDependencies": {
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+}
